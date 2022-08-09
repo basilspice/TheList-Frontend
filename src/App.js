@@ -1,11 +1,16 @@
-
 import './App.css';
-import Logo from './Logo/Logo';
+import Header from './Header/Header'
+
 function App() {
   return (
-    <div className="App">
-<Logo />
-    </div>
+<div className='Main'>
+
+<header>
+  <Header />
+</header>
+
+
+</div>
   );
 }
 

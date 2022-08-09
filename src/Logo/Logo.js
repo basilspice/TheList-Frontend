@@ -1,8 +1,14 @@
 export default function Logo() {
-  return (
-    <div className="App-logo">
-      <h1>the_list</h1>
-      
-    </div>
-  );
-}
+    return(
+<div className='Logo'>
+
+
+  <img
+    src="https://i.postimg.cc/nLnNMM2q/logo.jpg"
+    alt=""
+  />
+ 
+  
+
+</div>
+)}
