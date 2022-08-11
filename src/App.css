@@ -1,3 +1,45 @@
-.Header {
-  flex-direction: row;
+.App {
+    text-align: center;
+   
+  }
+  main{
+    height: 90vh;
+  }
+  header{
+    background-color: white;
+  }
+  .navbar.navbar-light.bg-light{
+    background-color: none;
+  }
+  .bg-light{
+    background-color: none;
+  }
+  header div.container-fluid{
+    background-color: white;
+  }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  vertical-align: bottom;
+  font-size: 1rem;
+  color: #286c79;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  margin-left: 85%;
+}
+
+button {
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 1.4rem;
+}
+button:hover {
+  background-color: lightgrey;
+  color: darkslateblue;
+  box-shadow: 0 12px 16px 0 rgba(72, 61, 139, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border: solid 2px darkslateblue;
 }
