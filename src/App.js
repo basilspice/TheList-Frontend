@@ -8,6 +8,7 @@ import Header from './header/header';
 import NewList from './newList/newList';
 import ListPage from './listPage/listPage';
 import LoginPage from './loginPage/loginPage'
+import RegisterPage from './registerPage/registerPage'
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/ListPage" element={<ListPage />} />
-        <Route path="/LoginPage" element={<LoginPage/>} />
-        <Route path="/Newlist" element={<NewList />} />
+        <Route path="/loginPage" element={<LoginPage/>} />
+        <Route path="/registerPage" element={<RegisterPage />} />
+        <Route path="/newlist" element={<NewList />} />
        </Routes>
       </main>
       <Footer />
