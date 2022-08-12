@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   // Button,
   Container,
@@ -16,21 +16,24 @@ const Header = () => {
     <header>
       <Navbar bg="light" expand={false} collapseOnSelect={true}>
         <Container fluid>
-          <Navbar.Brand href="/" ><img src={logo} alt="logo"/></Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src={logo} alt="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
-            placement="top"
-            
+            placement="start"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel"><img src={logo} alt="logo"></img></Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel">
+                <img src={logo} alt="logo"></img>
+              </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <LinkContainer to="/LoginPage">
-                  <Nav.Link>Login</Nav.Link>
+                  <Nav.Link>Account</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/">
                   <Nav.Link>Feed</Nav.Link>
@@ -41,9 +44,7 @@ const Header = () => {
                 <LinkContainer to="/PostPage">
                   <Nav.Link></Nav.Link>
                 </LinkContainer>
-       
               </Nav>
-           
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
@@ -53,9 +54,6 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
 
 // import React, { useState } from 'react';
 // import Button from 'react-bootstrap/Button';
@@ -95,11 +93,4 @@ export default Header;
 //   );
 // }
 
-
-
 // export default Header;
-
-
-
-
-

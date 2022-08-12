@@ -30,16 +30,37 @@
   margin-left: 85%;
 }
 
-button {
+.button-footer {
   text-decoration: none;
   color: darkslateblue;
   font-size: 1.4rem;
 }
-button:hover {
+.button-footer:hover {
   background-color: lightgrey;
   color: darkslateblue;
   box-shadow: 0 12px 16px 0 rgba(72, 61, 139, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   border: solid 2px darkslateblue;
+}
+
+.login-button {
+  background-color: lightgrey;
+  color: darkslateblue;
+  border-radius: 5px;
+  border: solid 1px darkslateblue;
+}
+.login-footer:hover {
+  background-color: lightgrey;
+  color: darkslateblue;
+  box-shadow: 0 12px 16px 0 rgba(72, 61, 139, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border: solid 2px darkslateblue;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
